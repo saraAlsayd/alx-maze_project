@@ -49,7 +49,7 @@ void keep_window(bool *quit);
 void colorFill(SDL_Instance *instance, char *color_name);
 void end(SDL_Instance *instance);
 _Bool loadMedia(SDL_Instance *instance, char *media_path);
-_Bool done(SDL_Event *event, bool delay, const unsigned char *keys);
+_Bool finish(SDL_Event *event, bool del, const unsigned char *keys);
 void readKeys(const unsigned char *keys);
 int poll_events(void);
 

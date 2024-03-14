@@ -1,0 +1,32 @@
+THE MAZE PROJECT - MVP
+The provided MVP for the Maze Game with SDL2 outlines the minimum features required to implement a basic maze game. Here's a breakdown of the key components and user stories:
+
+Walls and Maze Representation:
+
+Define a 2D array to store maze data.
+Use SDL2 to draw walls and the maze structure.
+Orientation and Movement:
+
+Use arrow keys to control player movement and rotation.
+Implement collision detection to prevent the player from moving through walls.
+Parser and Maze Data:
+
+Create a simple parser to read maze data from a text file and store it in the 2D array.
+Main Menu and Game Interface:
+
+Provide a main menu allowing users to start a new game, load a saved game, or quit the game.
+Gameplay and Interactivity:
+
+Display maze on the screen with smooth and responsive player movement.
+Include a timer and score to track progress.
+Add collectibles and obstacles to the maze to enhance gameplay.
+End of Game Feedback:
+
+Display a congratulatory message upon completing the maze.
+Show final score and completion time.
+Provide an option to save the game.
+Audio and Visuals:
+
+Include sound effects corresponding to player actions.
+Add music to enhance gameplay experience.
+Ensure high-quality graphics and animations.
