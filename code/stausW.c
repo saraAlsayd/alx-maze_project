@@ -1,4 +1,4 @@
-#include "../include/main.h"
+#include "../head/main.h"
 /**
  * finish - A function checks if you close the window
  * key. and it is handel the frame
